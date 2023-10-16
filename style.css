@@ -1,25 +1,25 @@
-body { 
-  font-family: Poppins;
+body {
+    font-family: Poppins;
 }
 
 .signupBtn {
-  background-color: #3958a1;
-  border-radius: 15px;
-  padding: 7px 30px;
-  color: white;
-  border: 0;
-  filter: drop-shadow(3px 3px 3px gray);
+    background-color: #3958a1;
+    border-radius: 15px;
+    padding: 7px 30px;
+    color: white;
+    border: 0;
+    filter: drop-shadow(3px 3px 3px gray);
 }
 
 .loginBtn {
-  background-color: #c7f3fd;
-  border-radius: 15px;
-  padding: 7px 30px;
-  border: 0;
-  filter: drop-shadow(3px 3px 3px gray);
+    background-color: #c7f3fd;
+    border-radius: 15px;
+    padding: 7px 30px;
+    border: 0;
+    filter: drop-shadow(3px 3px 3px gray);
 }
 
-.banner{ 
+.banner {
     width: 100%;
     height: 1000px;
     flex-shrink: 0;
@@ -28,12 +28,12 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.inputBg{
+.inputBg {
     background-color: inherit;
     width: 190px;
 }
 
-.searchBtn{
+.searchBtn {
     border-radius: 28.848px;
     background: #49BBBD;
     width: 86.063px;
@@ -41,12 +41,130 @@ body {
     flex-shrink: 0;
 }
 
-.title{
+.title {
     color: #22376A;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 135%; /* 32.4px */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 32.4px */
 }
 
+.heroText {
+    color: #252641;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.heroButton {
+    width: 220px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #FFD066;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-content span {
+    color: #F48C06;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-content h3 {
+    color: #1820AE;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-content p {
+    color: #614AD3;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 38.4px */
+}
+
+.play {
+    border-radius: 50%;
+    /* padding: 10px; */
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.play i {
+    margin-left: 25px;
+}
+
+.join-section {
+    margin: 0px 150px;
+}
+
+.join-section h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 196px;
+}
+
+.success-section h2 {
+    background: var(--Accent-gradient, linear-gradient(90deg, #136CB5 0%, #49BBBD 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 96px */
+}
+
+.success-section p {
+    color: var(--Half-dark-text-color, rgba(1, 5, 20, 0.80));
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 41.6px */
+}
+
+.success-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fav-courses {
+    height: 1000px;
+    background: #EAEAFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fav-courses h3{
+    color: #252641;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 792px;
+}
